@@ -1,5 +1,24 @@
 {
-  "ads": { "first_interstitial_level": 6, "min_play_s": 180, "min_gap_s": 150, "max_per_session": 5 },
-  "nudge": { "idle_s": 12, "repeat_s": 9, "max": 3 },
-  "news": { "text": "", "until": "" }
+  "ads": {
+    "first_interstitial_level": 6,
+    "min_play_s": 180,
+    "min_gap_s": 150,
+    "max_per_session": 5
+  },
+  "nudge": {
+    "idle_s": 12,
+    "repeat_s": 9,
+    "max": 3
+  },
+  "news": {
+    "text": "",
+    "until": ""
+  },
+  "videos": {
+    "levels": [
+      121,
+      157,
+      75
+    ]
+  }
 }
