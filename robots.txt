@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sazzal56.github.io/sitemap.xml

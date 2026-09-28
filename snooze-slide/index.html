@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snooze Slide: Cozy Cat Puzzle for Android</title>
+<meta name="description" content="Slide the cats to bed. Sleeping cats become walls. Snooze Slide is a cozy cat puzzle game for Android with 200 levels and a new Bedtime puzzle every day. Play it early as a tester.">
+<link rel="canonical" href="https://sazzal56.github.io/snooze-slide/">
+<link rel="icon" href="img/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Snooze Slide: Cozy Cat Puzzle">
+<meta property="og:description" content="Slide the cats to bed. Sleeping cats become walls. A new cozy puzzle every day.">
+<meta property="og:image" content="https://sazzal56.github.io/snooze-slide/img/feature.jpg">
+<meta property="og:url" content="https://sazzal56.github.io/snooze-slide/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#66405F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Snooze Slide",
+  "alternateName": "Snooze Slide: Cozy Cat Puzzle",
+  "description": "A cozy cat puzzle for Android. Swipe to slide every cat at once; a cat that reaches its own bed falls asleep and becomes a wall for the others. 200 levels and a new Daily Bedtime puzzle every day.",
+  "genre": ["Puzzle", "Logic", "Casual"],
+  "gamePlatform": "Android",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Android",
+  "image": "https://sazzal56.github.io/snooze-slide/img/feature.jpg",
+  "url": "https://sazzal56.github.io/snooze-slide/",
+  "author": { "@type": "Organization", "name": "Lamplit Games", "email": "lamplitgame@gmail.com", "url": "https://sazzal56.github.io/" }
+}
+</script>
+<style>
+  :root { --plum: #8A5A86; --plum-deep: #66405F; --night: #2A2033; --cream: #FFFAF3; --ink: #5B4036; --muted: #A48E80; --gold: #F4B546; --go: #45A857; --go-lip: #2F7F3E; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--cream); color: var(--ink); font: 18px/1.6 "Fredoka", system-ui, sans-serif; }
+  a { color: var(--plum-deep); }
+  header { background: linear-gradient(180deg, #3B2A48 0%, var(--plum-deep) 100%); color: #FFF6EA; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  .hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; padding: 56px 0 64px; }
+  .hero h1 { font-size: clamp(38px, 6vw, 60px); line-height: 1.05; margin: 0 0 14px; font-weight: 600; }
+  .hero p { font-size: 20px; color: #EBDDF0; margin: 0 0 24px; }
+  .tag { display: inline-block; background: rgba(255,255,255,.12); padding: 4px 14px; border-radius: 99px; font-size: 15px; margin-bottom: 18px; }
+  .btn { display: inline-block; background: var(--go); color: #fff; text-decoration: none; font-weight: 600; font-size: 19px; padding: 14px 26px; border-radius: 18px; box-shadow: 0 6px 0 var(--go-lip); }
+  .btn.alt { background: rgba(255,255,255,.14); box-shadow: none; margin-left: 10px; }
+  .phone { justify-self: center; width: min(300px, 80vw); aspect-ratio: 9/16; border-radius: 34px; overflow: hidden; border: 8px solid #1E1726; box-shadow: 0 24px 60px rgba(0,0,0,.35); background: #1E1726; }
+  .phone video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  section { padding: 56px 0; }
+  h2 { font-size: 34px; margin: 0 0 8px; font-weight: 600; color: var(--plum-deep); }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .steps figure { margin: 0; background: #fff; border-radius: 22px; padding: 12px; box-shadow: 0 6px 20px rgba(91,64,54,.08); }
+  .steps img { width: 100%; border-radius: 14px; display: block; }
+  .steps figcaption { padding: 12px 6px 4px; font-weight: 500; }
+  .early { background: #F3E9F2; }
+  .card { background: #fff; border-radius: 24px; padding: 28px; box-shadow: 0 6px 20px rgba(91,64,54,.08); }
+  ol.join { margin: 0; padding-left: 22px; }
+  ol.join li { margin: 0 0 14px; }
+  .soon { color: var(--muted); font-style: italic; }
+  .social { display: flex; flex-wrap: wrap; gap: 12px; }
+  .social a { background: #fff; border: 2px solid #EADFCF; border-radius: 99px; padding: 8px 18px; text-decoration: none; font-weight: 500; }
+  details { background: #fff; border-radius: 18px; padding: 16px 20px; margin: 0 0 12px; box-shadow: 0 4px 14px rgba(91,64,54,.06); }
+  summary { font-weight: 600; cursor: pointer; }
+  footer { background: var(--night); color: #CFC2D8; padding: 32px 0; font-size: 15px; }
+  footer a { color: var(--gold); }
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; padding: 40px 0 48px; text-align: center; }
+    .steps { grid-template-columns: 1fr; }
+    .btn.alt { margin: 12px 0 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hero">
+    <div>
+      <span class="tag">🌙 Coming soon to Google Play</span>
+      <h1>Snooze Slide</h1>
+      <p>A cozy cat puzzle. Slide the cats to bed, and remember: <strong>a sleeping cat becomes a wall</strong> for the others. Who goes to bed first changes everything.</p>
+      <a class="btn" href="#early">Play it early</a><a class="btn alt" href="#how">How it works</a>
+    </div>
+    <div class="phone"><video src="img/gameplay.mp4" poster="img/gameplay_poster.jpg" autoplay muted loop playsinline aria-label="Snooze Slide gameplay: which cat goes to bed first?"></video></div>
+  </div>
+</header>
+
+<main>
+  <section id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="lead">One swipe moves every cat. Learn it in seconds, then plan your way through 200 puzzles.</p>
+      <div class="steps">
+        <figure><img src="img/1_slide.jpg" alt="Swipe to slide every cat at once" loading="lazy" width="540" height="960"><figcaption>Swipe: every cat slides until something stops it.</figcaption></figure>
+        <figure><img src="img/2_walls.jpg" alt="Sleeping cats become walls" loading="lazy" width="540" height="960"><figcaption>A cat on its own bed falls asleep and becomes a wall.</figcaption></figure>
+        <figure><img src="img/5_daily.jpg" alt="A new Daily Bedtime puzzle every day" loading="lazy" width="540" height="960"><figcaption>A new Daily Bedtime puzzle every day, the same for everyone.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="early" class="early">
+    <div class="wrap">
+      <h2>Play it before launch</h2>
+      <p class="lead">Google asks new games to run a two-week test first. Join as a tester and you'll play Snooze Slide before anyone else.</p>
+      <div class="card">
+        <ol class="join">
+          <li><strong>Join the tester group</strong> with the Google account you use on your Android phone:<br><a href="https://groups.google.com/g/snoozeslide-testers">groups.google.com/g/snoozeslide-testers</a> (tap "Join group").</li>
+          <li><strong>Accept the test invite</strong> on Google Play: <span class="soon">the link appears here as soon as the test opens.</span></li>
+          <li><strong>Install and keep it for 14 days.</strong> Playing is optional but very welcome, and any feedback helps: <a href="mailto:lamplitgame@gmail.com">lamplitgame@gmail.com</a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="follow">
+    <div class="wrap">
+      <h2>A new puzzle every day</h2>
+      <p class="lead">Can you solve it before the cats do? Follow along.</p>
+      <div class="social">
+        <a href="https://www.tiktok.com/@snoozeslide">TikTok</a>
+        <a href="https://www.instagram.com/snoozeslide/">Instagram</a>
+        <a href="https://www.youtube.com/@snoozeslide">YouTube</a>
+        <a href="https://www.facebook.com/snoozeslide">Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <details><summary>What kind of game is it?</summary><p>A calm logic puzzle with cats. Each swipe slides every cat in the room at once; get each cat onto its own bed. Once a cat is asleep it stays put and blocks the others, so the order matters. There are soft cushions, cardboard boxes, one-way cat flaps and rolling balls of yarn as you go from room to room.</p></details>
+      <details><summary>Is it free?</summary><p>Yes, it's free to play, with ads. Hints come with an optional short ad; there are never ads at launch or in the middle of a puzzle.</p></details>
+      <details><summary>Does it work offline?</summary><p>Yes. Every puzzle works offline.</p></details>
+      <details><summary>Is there a timer or lives?</summary><p>No. No timers, no lives, no rush. Undo any swipe, restart anytime.</p></details>
+      <details><summary>iPhone?</summary><p>Android first. If you'd like an iPhone version, tell us: <a href="mailto:lamplitgame@gmail.com">lamplitgame@gmail.com</a></p></details>
+      <details><summary>Who makes it?</summary><p>One person, one cozy room at a time, as Lamplit Games.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Snooze Slide by Lamplit Games · <a href="../privacy.html">Privacy policy</a> · <a href="mailto:lamplitgame@gmail.com">lamplitgame@gmail.com</a></div>
+</footer>
+</body>
+</html>
