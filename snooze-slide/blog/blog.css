@@ -1,4 +1,4 @@
-:root { --plum: #8A5A86; --plum-deep: #66405F; --night: #2A2033; --cream: #FFFAF3; --ink: #5B4036; --muted: #8F7A6D; --gold: #F4B546; --go: #45A857; --go-lip: #2F7F3E; }
+:root { --plum: #8A5A86; --plum-deep: #66405F; --night: #2A2033; --cream: #FFFAF3; --ink: #5B4036; --muted: #77645A; --gold: #F4B546; --go: #2F8540; --go-lip: #236632; }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--cream); color: var(--ink); font: 19px/1.65 "Fredoka", system-ui, sans-serif; }
 a { color: var(--plum-deep); }
